@@ -1,0 +1,16 @@
+{
+  "namespace": "com.redpanda.games.generated.common",
+  "type": "record",
+  "name": "GameStart",
+  "fields": [
+    {
+      "name": "event_id",
+      "type": "int"
+    },
+    {
+      "name": "timestamp",
+      "type": "long",
+      "logical-type": "timestamp-millis"
+    }
+  ]
+}

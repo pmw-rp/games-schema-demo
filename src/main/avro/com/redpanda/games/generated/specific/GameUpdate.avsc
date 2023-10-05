@@ -1,0 +1,19 @@
+{
+  "namespace": "com.redpanda.games.generated.specific",
+  "type": "record",
+  "name": "GameUpdate",
+  "fields": [
+    {
+      "name": "participant_id",
+      "type": "int"
+    },
+    {
+      "name": "distance",
+      "type": "int"
+    },
+    {
+      "name": "duration",
+      "type": "double"
+    }
+  ]
+}

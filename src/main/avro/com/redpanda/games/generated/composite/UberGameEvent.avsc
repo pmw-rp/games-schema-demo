@@ -1,0 +1,22 @@
+{
+  "namespace": "com.redpanda.games.generated.composite",
+  "type": "record",
+  "name": "UberGameEvent",
+  "fields": [
+    {
+      "name": "eventStart",
+      "type": ["null", "com.redpanda.games.generated.common.GameStart"],
+      "default": null
+    },
+    {
+      "name": "update",
+      "type": ["null", "com.redpanda.games.generated.specific.GameUpdate"],
+      "default": null
+    },
+    {
+      "name": "eventStop",
+      "type": ["null", "com.redpanda.games.generated.common.GameStop"],
+      "default": null
+    }
+  ]
+}
